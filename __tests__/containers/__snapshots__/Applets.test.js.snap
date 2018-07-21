@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`my applets screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <Header
+    centerComponent={
+      Object {
+        "style": Object {
+          "color": "#4D4C4C",
+          "fontSize": 20,
+          "fontWeight": "700",
+        },
+        "text": "My Applets",
+      }
+    }
+    outerContainerStyles={
+      Object {
+        "backgroundColor": "#fff",
+      }
+    }
+  />
+  <AppletsFeed
+    feed={Array []}
+    fetchApplets={[Function]}
+    isFetching={false}
+  />
+</View>
+`;

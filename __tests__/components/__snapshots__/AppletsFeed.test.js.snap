@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`applet preview renders correctly 1`] = `
+<RCTScrollView
+  contentInset={
+    Object {
+      "bottom": 20,
+    }
+  }
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+>
+  <RCTRefreshControl />
+  <View />
+</RCTScrollView>
+`;
